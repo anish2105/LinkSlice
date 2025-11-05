@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+main
+
+# Go workspace and build folders
+bin/
+build/
+dist/
+
+# Dependency directories
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Environment and local config
+.env
+.env.*
+config.json
+*.local
+
+# Docker
+*.pid
+.data/
+*.db
